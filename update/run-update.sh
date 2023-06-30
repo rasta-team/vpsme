@@ -1,5 +1,5 @@
 #wget https://github.com/${GitUser}/
-GitUser="NevermoreSSH"
+GitUser="irawancandra6699"
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
 		exit 1
@@ -84,7 +84,7 @@ sleep 1
 echo ""
 # UPDATE RUN-UPDATE
 cd /usr/bin
-wget -O run-update "https://raw.githubusercontent.com/${GitUser}/sapphire/main/update/run-update.sh"
+wget -O run-update "https://raw.githubusercontent.com/${GitUser}/vpsme/main/update/run-update.sh"
 chmod +x run-update
 # RUN UPDATE
 echo ""
@@ -96,24 +96,24 @@ echo ""
 echo -e "\e[0;32mNew Version Downloading started!\e[0m"
 sleep 2
 cd /usr/bin
-wget -O update "https://raw.githubusercontent.com/${GitUser}/sapphire/main/update/update.sh"
-wget -O run-update "https://raw.githubusercontent.com/${GitUser}/sapphire/main/update/run-update.sh"
-wget -O message-ssh "https://raw.githubusercontent.com/${GitUser}/sapphire/main/update/message-ssh.sh"
-wget -O change-port "https://raw.githubusercontent.com/${GitUser}/sapphire/main/change.sh"
-wget -O system "https://raw.githubusercontent.com/${GitUser}/sapphire/main/menu/system.sh"
-wget -O menu "https://raw.githubusercontent.com/${GitUser}/sapphire/main/menu.sh"
-wget -O add-host "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/add-host.sh"
-wget -O check-sc "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/running.sh"
-wget -O cert "https://raw.githubusercontent.com/${GitUser}/sapphire/main/cert.sh"
-wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/sapphire/main/menu/trojaan.sh"
-wget -O xraay "https://raw.githubusercontent.com/${GitUser}/sapphire/main/menu/xraay.sh"
-wget -O xp "https://raw.githubusercontent.com/${GitUser}/sapphire/main/xp.sh"
-wget -O port-xray "https://raw.githubusercontent.com/${GitUser}/sapphire/main/change-port/port-xray.sh"
-wget -O themes "https://raw.githubusercontent.com/${GitUser}/sapphire/main/menu/themes.sh"
-wget -O autobackup "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/autobackup.sh"
-wget -O backup "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/backup.sh"
-wget -O bckp "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/bckp.sh"
-wget -O restore "https://raw.githubusercontent.com/${GitUser}/sapphire/main/system/restore.sh"
+wget -O update "https://raw.githubusercontent.com/${GitUser}/vpsme/main/update/update.sh"
+wget -O run-update "https://raw.githubusercontent.com/${GitUser}/vpsme/main/update/run-update.sh"
+wget -O message-ssh "https://raw.githubusercontent.com/${GitUser}/vpsme/main/update/message-ssh.sh"
+wget -O change-port "https://raw.githubusercontent.com/${GitUser}/vpsme/main/change.sh"
+wget -O system "https://raw.githubusercontent.com/${GitUser}/vpsme/main/menu/system.sh"
+wget -O menu "https://raw.githubusercontent.com/${GitUser}/vpsme/main/menu.sh"
+wget -O add-host "https://raw.githubusercontent.com/${GitUser}/vpsme/main/system/add-host.sh"
+wget -O check-sc "https://raw.githubusercontent.com/${GitUser}/vpsme/main/system/running.sh"
+wget -O cert "https://raw.githubusercontent.com/${GitUser}/vpsme/main/cert.sh"
+wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/vpsme/main/menu/trojaan.sh"
+wget -O xraay "https://raw.githubusercontent.com/${GitUser}/vpsme/main/menu/xraay.sh"
+wget -O xp "https://raw.githubusercontent.com/${GitUser}/vpsme/main/xp.sh"
+wget -O port-xray "https://raw.githubusercontent.com/${GitUser}/vpsme/main/change-port/port-xray.sh"
+wget -O themes "https://raw.githubusercontent.com/${GitUser}/vpsme/main/menu/themes.sh"
+wget -O autobackup "https://raw.githubusercontent.com/${GitUser}/vpsme/main/system/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/${GitUser}/vpsme/main/system/backup.sh"
+wget -O bckp "https://raw.githubusercontent.com/${GitUser}/vpsme/main/system/bckp.sh"
+wget -O restore "https://raw.githubusercontent.com/${GitUser}/vpsme/main/system/restore.sh"
 chmod +x update
 chmod +x run-update
 chmod +x message-ssh
