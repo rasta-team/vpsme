@@ -1,6 +1,6 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
-GitUser="NevermoreSSH"
+GitUser="irawancandra6699"
 # Color Validation
 Lred='\e[1;91m'
 Lgreen='\e[92m'
@@ -21,9 +21,9 @@ echo ''
 echo "                                                              "
 echo -e "$Lyellow                ⚡ PREMIUM SPEED SCRIPT ⚡"$NC
 echo -e "$green.........................................................."$NC
-echo -e "$Lyellow                  Autoscript By NevermoreSSH"$NC
+echo -e "$Lyellow                  Autoscript By irawancandra6699"$NC
 echo -e "$Lyellow                    CONTACT TELEGRAM"$NC
-echo -e "$Lyellow                       @todfix667"$NC
+echo -e "$Lyellow                       @CandraVpnz"$NC
 echo -e "$green.........................................................."$NC
 echo ''
 echo -e "$Lyellow                       Wait 6 Seconds!"$NC
@@ -50,7 +50,7 @@ VALIDITY() {
     today=$(date -d "0 days" +"%Y-%m-%d")
     Exp1=$(curl https://raw.githubusercontent.com/${GitUser}/allow/main/ipvps.conf | grep $MYIP | awk '{print $4}')
     if [[ $today < $Exp1 ]]; then
-        echo -e "\e[32mCongratulations! You are Allowed to use AUTOSCRIPT NevermoreSSH..\e[0m"
+        echo -e "\e[32mCongratulations! You are Allowed to use AUTOSCRIPT irawancandra6699..\e[0m"
         sleep 5
     else
         echo -e "\e[31mYOUR SCRIPT HAS EXPIRED!\e[0m"
@@ -63,7 +63,7 @@ VALIDITY() {
     today=$(date -d "0 days" +"%Y-%m-%d")
     Exp1=$(curl https://raw.githubusercontent.com/${GitUser}/allow/main/ipvps.conf | grep $MYIP | awk '{print $4}')
     if [[ $today < $Exp1 ]]; then
-        echo -e "\e[32mCongratulations! You are Allowed to use AUTOSCRIPT NevermoreSSH..\e[0m"
+        echo -e "\e[32mCongratulations! You are Allowed to use AUTOSCRIPT irawancandra6699..\e[0m"
         sleep 5
     else
         echo -e "\e[31mYOUR SCRIPT HAS EXPIRED!\e[0m"
