@@ -1,6 +1,6 @@
 # Created by NevermoreSSH
 #wget https://github.com/${GitUser}/
-GitUser="irawancandra6699"
+GitUser="rasta-team"
 #IZIN SCRIPT
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m"
