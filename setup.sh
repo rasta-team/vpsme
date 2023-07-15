@@ -1,6 +1,6 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
-GitUser="irawancandra6699"
+GitUser="rasta-team"
 # Color Validation
 Lred='\e[1;91m'
 Lgreen='\e[92m'
@@ -21,9 +21,9 @@ echo ''
 echo "                                                              "
 echo -e "$Lyellow                ⚡ PREMIUM SPEED SCRIPT ⚡"$NC
 echo -e "$green.........................................................."$NC
-echo -e "$Lyellow                  Autoscript By irawancandra6699"$NC
+echo -e "$Lyellow                  Autoscript By rasta-team"$NC
 echo -e "$Lyellow                    CONTACT TELEGRAM"$NC
-echo -e "$Lyellow                       @CandraVpnz"$NC
+echo -e "$Lyellow                       @rasta-team"$NC
 echo -e "$green.........................................................."$NC
 echo ''
 echo -e "$Lyellow                       Wait 6 Seconds!"$NC
