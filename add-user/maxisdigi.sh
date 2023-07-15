@@ -1,5 +1,5 @@
 #wget https://github.com/${GitUser}/
-GitUser="irawancandra6699"
+GitUser="rasta-team"
 # Color Validation
 Lred='\e[1;91m'
 BGWHITE='\e[0;47;30m'
