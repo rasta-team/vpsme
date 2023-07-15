@@ -1,5 +1,5 @@
 #wget https://github.com/${GitUser}/
-GitUser="irawancandra6699"
+GitUser="rasta-team"
 #Colour
 white='\e[0;37m'
 green='\e[0;32m'
@@ -235,7 +235,7 @@ case $Restart in
                 ;;
 				11)
 				clear
-                systemctl restart ohp
+		                systemctl restart ohp
 				systemctl restart ohpd
 				systemctl restart ohps
                 echo -e ""
@@ -252,7 +252,7 @@ case $Restart in
 				clear
 				systemctl restart ws-http
 				systemctl restart ws-https
-                systemctl restart cdn-dropbear
+    				systemctl restart cdn-dropbear
 				systemctl restart cdn-ovpn
 				systemctl restart cdn-ssl
                 echo -e ""
