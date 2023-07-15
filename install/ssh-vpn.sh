@@ -1,6 +1,6 @@
 # ==================================================
 #wget https://github.com/${GitUser}/
-GitUser="irawancandra6699"
+GitUser="rasta-team"
 
 # // initializing var
 export DEBIAN_FRONTEND=noninteractive
@@ -14,10 +14,10 @@ ver=$VERSION_ID
 country="MY"
 state="Kuala_Lumpur"
 locality="Kuala_Lumpur"
-organization="@todfix667"
-organizationalunit="@todfix667"
+organization="@rastateam"
+organizationalunit="@rastateam"
 commonname="candra"
-email="admin@nevermore.com"
+email="admin@rastateam"
 
 # // simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/${GitUser}/vpsme/main/password"
