@@ -21,7 +21,7 @@ CYAN='\e[36m'
 LIGHT='\033[0;37m'
 tokengit=$(cat /etc/adminip/access.conf)
 MYIP=$(wget -qO- ipinfo.io/ip);
-adminip=$( curl -sS https://raw.githubusercontent.com/irawancandra6699/allow/main/accessmenu | grep $MYIP )
+adminip=$( curl -sS https://raw.githubusercontent.com/rasta-team/allow/main/accessmenu | grep $MYIP )
 if [ $adminip = $MYIP ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
@@ -34,7 +34,7 @@ fi
 
 setadmin() {
 #isi link git
-linkinstall="https://raw.githubusercontent.com/irawancandra6699/allow/main"
+linkinstall="https://raw.githubusercontent.com/rasta-team/allow/main"
 rm -rf /etc/adminip/
 mkdir -p /etc/adminip
 read -p "INPUT OWNER ACCESS TOKEN CODE " ans
@@ -64,7 +64,7 @@ rm -rf /root/allow
 read -p " - IP VPS      : " daftar
 echo -e "[ ${Lyellow}INFO${NC} ] Checking the IPVPS if Already Registered"
 sleep 1
-cek=$( curl -sS https://raw.githubusercontent.com/irawancandra6699/allow/main/ipvps.conf | awk '{print $5}' | grep $daftar )
+cek=$( curl -sS https://raw.githubusercontent.com/rasta-team/allow/main/ipvps.conf | awk '{print $5}' | grep $daftar )
 if [[ $daftar = $cek ]]; then
 echo -e "\e[1;31m The IP VPS Has Been Registered\e[0m"
 sleep 2
@@ -73,7 +73,7 @@ else
 echo -e "IP VPS is not Registered, Permission Accepted.."
 fi
 clear
-echo -e "1) Lifetime ID" 
+echo -e "1) LIFETIME ID" 
 echo -e "2) Sewa / Had Masa"
 read -p "Sila Pilih : " jawab
 if [ "$jawab" = "1" ]; then
@@ -97,9 +97,9 @@ fi
 
 daftarip=$(cat /root/data)
 rm -rf /root/allow
-git config --global user.email "irawancandra6699@gmail.com"
-git config --global user.name "irawancandra6699"
-git clone https://github.com/irawancandra6699/allow.git
+git config --global user.email "irfan1037.psa@gmail.com"
+git config --global user.name "rasta-team"
+git clone https://github.com/rasta-team/allow.git
 mkdir /root/allow
 cd /root/allow/
 rm -rf .git
@@ -111,8 +111,8 @@ git init >/dev/null 2>&1
 git add .
 git commit -m register
 git branch -M main
-git remote add origin https://github.com/irawancandra6699/allow.git
-git push -f https://${tokengit}@github.com/irawancandra6699/allow.git
+git remote add origin https://github.com/rasta-team/allow.git
+git push -f https://${tokengit}@github.com/rasta-team/allow.git
 echo -e "IPVPS Registration Completed"
 sleep 1
 links1="apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot"
@@ -166,9 +166,9 @@ clear
 rm -rf /root/allow
 rm -rf /root/data
 rm -rf /root/ipvps.conf
-git config --global user.email "irawancandra6699@gmail.com"
-git config --global user.name "irawancandra6699"
-git clone https://github.com/irawancandra6699/allow.git
+git config --global user.email "irfan1037.psa@gmail.com"
+git config --global user.name "rasta-team"
+git clone https://github.com/rasta-team/allow.git
 mkdir /root/allow
 cd /root/allow/
 rm -rf .git
@@ -194,8 +194,8 @@ git init >/dev/null 2>&1
 git add .
 git commit -m delete
 git branch -M main
-git remote add origin https://github.com/irawancandra6699/allow.git
-git push -f https://${tokengit}@github.com/irawancandra6699/allow.git
+git remote add origin https://github.com/rasta-team/allow.git
+git push -f https://${tokengit}@github.com/rasta-team/allow.git
 clear
 echo -e "\033[0;34m----------------------------------------\033[0m"
 echo " Client IP Deleted Successfully"
@@ -221,9 +221,9 @@ exit 0
 fi
 clear
 rm -rf /root/allow
-git config --global user.email "irawancandra6699@gmail.com"
-git config --global user.name "irawancandra6699"
-git clone https://github.com/irawancandra6699/allow.git
+git config --global user.email "irfan1037.psa@gmail.com"
+git config --global user.name "rasta-team"
+git clone https://github.com/rasta-team/allow.git
   mkdir /root/allow
   cd /root/allow/
   rm -rf .git
@@ -268,8 +268,8 @@ sed -i "s/### $user $exp/### $user $exp4/g" /root/allow/ipvps.conf
 git add .
 git commit -m renew
 git branch -M main
-git remote add origin https://github.com/irawancandra6699/allow.git
-git push -f https://${tokengit}@github.com/irawancandra6699/allow.git
+git remote add origin https://github.com/rasta-team/allow.git
+git push -f https://${tokengit}@github.com/rasta-team/allow.git
 echo -e "IPVPS Registration Completed"
   clear
 echo -e "\033[0;34m----------------------------------------\033[0m"
@@ -300,9 +300,9 @@ clear
 rm -rf /root/allow
 rm -rf /root/data
 rm -rf /root/ipvps.conf
-git config --global user.email "irawancandra6699@gmail.com"
-git config --global user.name "irawancandra6699"
-git clone https://github.com/irawancandra6699/allow.git
+git config --global user.email "irfan1037.psa@gmail.com"
+git config --global user.name "rasta-team"
+git clone https://github.com/rasta-team/allow.git
 cd /root/allow/
 rm -rf .git
 git init
