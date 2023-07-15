@@ -1,5 +1,5 @@
 #wget https://github.com/${GitUser}/
-GitUser="irawancandra6699"
+GitUser="rasta-team"
 #IZIN SCRIPT
 MYIP=$(curl -sS ipv4.icanhazip.com)
 # Valid Script
@@ -25,11 +25,11 @@ exit 0
 fi
 clear
 apt install jq curl -y
-DOMAIN=nevermore-vpn.do
+DOMAIN=unlimitedspeed.link
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.nevermore.me
-CF_ID=nevermore2601@gmail.com
-CF_KEY=14b348d2fd20de44e30e5c02a6ede439d6af8
+SUB_DOMAIN=${sub}.vpnn.unlimitedspeed.link
+CF_ID=mydrive5895@gmail.com
+CF_KEY=de485094e52cae661d78462cefe9b4e09bb8a
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
