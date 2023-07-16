@@ -203,8 +203,8 @@ echo -e "Created   :$harini"
 echo -e "Expired   :$exp"
 echo ""
 echo ""
-read -n 1 -s -r -p "Press any key to back on menu maxisdigi"
-maxisdigi
+read -n 1 -s -r -p "Press any key to back on menu"
+xraay
 }
 # TRIAL USER
 function menu2 () {
@@ -343,8 +343,8 @@ echo -e "Created   :$harini"
 echo -e "Expired   :$exp"
 echo ""
 echo ""
-read -n 1 -s -r -p "Press any key to back on menu maxisdigi"
-maxisdigi
+read -n 1 -s -r -p "Press any key to back on menu"
+xraay
 }
 # show user
 function menu3 () {
@@ -481,8 +481,8 @@ echo -e "Created   :$harini"
 echo -e "Expired   :$exp"
 echo ""
 echo ""
-read -n 1 -s -r -p "Press any key to back on menu maxisdigi"
-maxisdigi
+read -n 1 -s -r -p "Press any key to back on menu"
+xraay
 }
 # ADD USER VLESS WS
 function menu4 () {
@@ -561,8 +561,8 @@ echo -e "Created   :$harini"
 echo -e "Expired   :$exp"
 echo ""
 echo ""
-read -n 1 -s -r -p "Press any key to back on menu maxisdigi"
-maxisdigi
+read -n 1 -s -r -p "Press any key to back on menu"
+xraay
 }
 # TRIAL USER VLESS WS
 function menu5 () {
@@ -638,8 +638,8 @@ echo -e "Created   :$harini"
 echo -e "Expired   :$exp"
 echo ""
 echo ""
-read -n 1 -s -r -p "Press any key to back on menu maxisdigi"
-maxisdigi
+read -n 1 -s -r -p "Press any key to back on menu"
+xraay
 }
 # show user vless ws
 function menu6 () {
@@ -712,8 +712,8 @@ echo -e "Created   :$harini"
 echo -e "Expired   :$exp"
 echo ""
 echo ""
-read -n 1 -s -r -p "Press any key to back on menu maxisdigi"
-maxisdigi
+read -n 1 -s -r -p "Press any key to back on menu"
+xraay
 }
 # FUCTION CREATE USER TROJAN
 function menu7 () {
@@ -788,8 +788,8 @@ echo -e "Created   :$harini"
 echo -e "Expired   :$exp"
 echo ""
 echo ""
-read -n 1 -s -r -p "Press any key to back on menu maxisdigi"
-maxisdigi
+read -n 1 -s -r -p "Press any key to back on menu"
+xraay
 }
 # FUCTION TRIAL USER TROJAN
 function menu8 () {
@@ -857,8 +857,8 @@ echo -e "Created   :$harini"
 echo -e "Expired   :$exp"
 echo ""
 echo ""
-read -n 1 -s -r -p "Press any key to back on menu maxisdigi"
-maxisdigi
+read -n 1 -s -r -p "Press any key to back on menu"
+xraay
 }
 function menu9 () {
 trnone="$(cat ~/log-install.txt | grep -w "Xray Trojan Ws None Tls" | cut -d: -f2|sed 's/ //g')"
@@ -925,8 +925,8 @@ echo -e "Created   :$harini"
 echo -e "Expired   :$exp"
 echo ""
 echo ""
-read -n 1 -s -r -p "Press any key to back on menu maxisdigi"
-maxisdigi
+read -n 1 -s -r -p "Press any key to back on menu"
+xraay
 }
 # MENU XRAY VMESS VLESS TROJAN MAXIS DIGI YES CELCOM
 clear
